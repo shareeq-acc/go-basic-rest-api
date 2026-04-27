@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNoYWh6YWliQGdtYWlsLmNvbSIsImV4cCI6MTc3NzMxODM3MCwidXNlcklkIjoyfQ.j_51d9UtsHJlB8NJFrzZtJaTh152zud9DOuEEahxvmc
+
+{
+    "name":"Test event",
+    "description":"a Test Event",
+    "location":"Test Location",
+    "dateTime":"2026-04-30T15:30:00.00Z"
+}
